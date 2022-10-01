@@ -4,6 +4,22 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+/* Common CSS  */
+.btn-common {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #289bde;
+  border: 1px solid #289bde;
+  border-radius: 5px;
+  padding: 10px 18px;
+}
+.btn-common:hover {
+  color: #289bde !important;
+  border: 1px solid #289bde !important;
+}
+/* Common CSS  */
+/* Navigation bar  */
 .navbar-brand {
   font-weight: 600;
   font-size: 40px;
@@ -13,10 +29,10 @@
   font-size: 18px;
   font-weight: 400;
 }
-.nav-link:hover{
-    color: #4A4A4A;
+.nav-link:hover {
+  color: #4a4a4a;
 }
-.btn-common {
+#register-btn {
   color: #289bde;
   font-size: 20px;
   font-weight: 600;
@@ -26,4 +42,71 @@
 #register-btn:hover {
   color: #ffffff;
   background-color: #289bde;
+}
+/* Navigation bar  */
+/* Carousel Slider  */
+.carousel-item img {
+  height: 262px;
+}
+.carousel-caption {
+  max-width: 273px;
+  top: 35%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+.carousel-caption p {
+  font-size: 12px;
+}
+.carousel-caption h5 {
+  font-size: 20px;
+}
+.img-overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  background: rgba(29, 29, 29, 0.7);
+}
+/* Carousel Slider  */
+/* Responsive  CSS  */
+@media screen and (min-width: 768px) {
+  .carousel-item img {
+    height: auto;
+  }
+  .carousel-caption {
+    max-width: 573px;
+    top: 45%;
+  }
+  .carousel-caption h5 {
+    font-size: 40px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  .btn-common {
+    font-size: 18px;
+    padding: 11px 18px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .carousel-item img {
+    height: auto;
+  }
+  .carousel-caption {
+    max-width: 671px;
+    top: 50%;
+  }
+  .carousel-caption h5 {
+    font-size: 65px;
+  }
+  .carousel-caption p {
+    font-size: 18px;
+  }
+  .btn-common {
+    font-size: 20px;
+    padding: 13px 33px;
+  }
 }

@@ -13,10 +13,18 @@
   <body>
     <header>
       <div class="container">
+        <!-- Navigation bar -->
         <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="#">Eureka Tech</a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,10 +37,112 @@
               <li class="nav-item"><a class="nav-link" href="">Register</a></li>
             </ul>
           </div>
-          <button type="button" id="register-btn" class="d-none d-lg-block btn btn-common">Register</button>
+          <button type="button" id="register-btn" class="d-none d-lg-block btn">
+            Register
+          </button>
         </nav>
+        <!-- Navigation bar -->
+        <!-- Carousel slider -->
+        <div
+          id="carouselExampleDark"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                src="/images/cover/cover-1.png"
+                class="d-block w-100 position-relative"
+                alt="..."
+              />
+              <div class="position-absolute img-overlay"></div>
+              <div class="carousel-caption text-white">
+                <h5 class="fw-bold">Get Started Digital Learning</h5>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+                <button type="button" class="btn btn-common">
+                  Get Started
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img
+                src="/images/cover/cover-2.jpg"
+                class="d-block w-100 position-relative"
+                alt="..."
+              />
+              <div class="position-absolute img-overlay"></div>
+              <div class="carousel-caption text-white">
+                <h5 class="fw-bold">Get Started Digital Learning</h5>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="10000">
+              <img
+                src="/images/cover/cover-3.jpg"
+                class="d-block w-100 position-relative"
+                alt="..."
+              />
+              <div class="position-absolute img-overlay"></div>
+              <div class="carousel-caption text-white">
+                <h5 class="fw-bold">Get Started Digital Learning</h5>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel slider -->
       </div>
     </header>
+    <main></main>
     <script src="/bootstrap//js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
