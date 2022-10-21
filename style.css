@@ -18,6 +18,9 @@
   color: #289bde !important;
   border: 1px solid #289bde !important;
 }
+section {
+  padding-bottom: 130px;
+}
 /* Common CSS  */
 /* Navigation bar  */
 .navbar-brand {
@@ -45,7 +48,7 @@
 }
 /* Navigation bar  */
 /* Carousel Slider  */
-.carousel-item{
+.carousel-item {
   max-height: 86vh;
 }
 .carousel-caption {
@@ -71,14 +74,49 @@
 }
 /* Carousel Slider  */
 /* Popular Courses */
-.section-title{
+.section-title {
   font-size: 45px;
 }
+.course-details {
+  color: #777777;
+}
+.price {
+  font-size: 18px;
+  color: #289bde;
+}
 /* Popular Courses */
+/* Explore learning institute */
+
+.learning-bg{
+  background: #F4FAFD;
+}
+/* Explore learning institute */
+/* Students feedback */
+.fa-star{
+  color: #FBBF24;
+}
+.fa-angle{
+  background-color: #E6F6FF;
+  color: #289BDE;
+  font-size: 30px;
+  width: 48px;
+  height: 48px;
+  transition: all 0.5s ease;
+}
+.fa-angle:hover{
+  background-color: #289BDE;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.angle-right{
+  right: -24px;
+}
+.angle-left{
+  left: -24px;
+}
+/* Students feedback */
 /* Responsive  CSS  */
 @media screen and (min-width: 768px) {
-  
 }
 @media screen and (min-width: 992px) {
-  
 }
