@@ -37,7 +37,9 @@
             <ul class="navbar-nav mx-auto align-items-center">
               <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="">Courses</a></li>
-              <li class="nav-item"><a class="nav-link" href="">Deals</a></li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Deals</a>
+              </li>
               <li class="nav-item"><a class="nav-link" href="">Success</a></li>
               <li class="nav-item"><a class="nav-link" href="">About</a></li>
               <li class="nav-item"><a class="nav-link" href="">Register</a></li>
@@ -50,14 +52,14 @@
         <!-- Navigation bar -->
         <!-- Carousel slider -->
         <div
-          id="carouselExampleDark"
-          class="carousel slide mb-md-4"
+          id="carouselDark"
+          class="carousel slide mb-4"
           data-bs-ride="carousel"
         >
           <div class="carousel-indicators">
             <button
               type="button"
-              data-bs-target="#carouselExampleDark"
+              data-bs-target="#carouselDark"
               data-bs-slide-to="0"
               class="active"
               aria-current="true"
@@ -65,22 +67,24 @@
             ></button>
             <button
               type="button"
-              data-bs-target="#carouselExampleDark"
+              data-bs-target="#carouselDark"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
           </div>
           <div class="carousel-inner rounded">
             <div class="carousel-item active" data-bs-interval="10000">
-              <img
-                src="/images/cover/cover-1.png"
-                class="d-block w-100 position-relative"
-                alt="..."
-              />
+              <div class="img-container d-block w-100 position-relative">
+                <img
+                  src="images/cover/cover-1.png"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
               <div class="position-absolute img-overlay"></div>
               <div class="carousel-caption text-white">
                 <h5 class="fw-bold">Get Started Digital Learning</h5>
-                <div class="my-4">
+                <div class="my-md-4">
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
@@ -93,11 +97,13 @@
               </div>
             </div>
             <div class="carousel-item" data-bs-interval="10000">
-              <img
-                src="/images/cover/cover-2.jpg"
-                class="d-block w-100 position-relative"
-                alt="..."
-              />
+              <div class="img-container d-block w-100 position-relative">
+                <img
+                  src="images/cover/cover-2.jpg"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
               <div class="position-absolute img-overlay"></div>
               <div class="carousel-caption text-white">
                 <h5 class="fw-bold">Get Started Digital Learning</h5>
@@ -108,16 +114,13 @@
                     its layout.
                   </p>
                 </div>
-                <button type="button" class="btn btn-common">
-                  Get Started
-                </button>
               </div>
             </div>
           </div>
           <button
             class="carousel-control-prev"
             type="button"
-            data-bs-target="#carouselExampleDark"
+            data-bs-target="#carouselDark"
             data-bs-slide="prev"
           >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -126,7 +129,7 @@
           <button
             class="carousel-control-next"
             type="button"
-            data-bs-target="#carouselExampleDark"
+            data-bs-target="#carouselDark"
             data-bs-slide="next"
           >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -138,10 +141,10 @@
     </header>
     <main>
       <!-- popular courses  -->
-      <section>
-        <div class="container py-5">
+      <section class="pb-5">
+        <div class="container">
           <div class="row mb-md-4">
-            <div class="col-md-6 mx-auto">
+            <div class="col-lg-6 col-md-10 mx-auto">
               <h2 class="section-title text-center fw-semibold">
                 Discover Our Popular Courses
               </h2>
@@ -168,8 +171,9 @@
                         Fundamental Of UI/UX Design
                       </h5>
                       <p class="card-text course-details">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card.
+                        Design High-Impact User Experiences. Research, design,
+                        and prototype effective, visually-driven websites and
+                        apps.
                       </p>
                       <p class="card-text">
                         <small class="price">Price : 20$</small>
@@ -195,8 +199,9 @@
                         Javascript Basic to advanced
                       </h5>
                       <p class="card-text course-details">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card.
+                        A perfect JavaScript course for all those who want to
+                        learn and master JavaScript programming skills right
+                        from scratch.
                       </p>
                       <p class="card-text">
                         <small class="price">Price : 20$</small>
@@ -222,8 +227,8 @@
                         Fullstack Web Development
                       </h5>
                       <p class="card-text course-details">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card.
+                        Learn web development with HTML, CSS, Bootstrap 4, ES6
+                        React and Node
                       </p>
                       <p class="card-text">
                         <small class="price">Price : 20$</small>
@@ -247,8 +252,8 @@
                     <div class="card-body">
                       <h5 class="card-title fw-semibold">Digital Marketing</h5>
                       <p class="card-text course-details">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card.
+                        Top Digital Marketing Course | Facebook Ads,
+                        Google/YouTube, Display/Video & more|Grow your caree
                       </p>
                       <p class="card-text">
                         <small class="price">Price : 20$</small>
@@ -274,8 +279,9 @@
                         Photography Basic Rules
                       </h5>
                       <p class="card-text course-details">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card.
+                        The Best Online Professional Photography Class: How to
+                        Take Amazing Photos for Beginners & Advanced
+                        Photographers
                       </p>
                       <p class="card-text">
                         <small class="price">Price : 20$</small>
@@ -299,8 +305,8 @@
                     <div class="card-body">
                       <h5 class="card-title fw-semibold">Motion Graphics</h5>
                       <p class="card-text course-details">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card.
+                        Learn Motion Design on Mobile and Web using modern
+                        practices that top designers use + build projects!
                       </p>
                       <p class="card-text">
                         <small class="price">Price : 20$</small>
@@ -320,13 +326,13 @@
       </section>
       <!-- popular courses  -->
       <!-- Explore learning institute -->
-      <section>
+      <section class="pb-5">
         <div class="container">
           <div class="row">
             <div class="col-md-5 px-md-0">
               <img class="h-100 img-fluid" src="/images/working.png" alt="" />
             </div>
-            <div class="col-md-7 px-0 learning-bg d-flex align-items-center">
+            <div class="col-md-7 px-md-0 learning-bg d-flex align-items-center">
               <div class="learning-institute-text px-5 py-3 my-auto">
                 <h4 class="fs-2 fw-bold">Explore The elearning Institute</h4>
                 <p>
@@ -334,10 +340,17 @@
                   available, but the majority have suffered alteration in some
                   form, by injected humour, or randomised words which don't look
                   even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum, you need to be sure. <br /><br />
-                  Anything embarrassing hidden in the middle of text. All the
-                  Lorem Ipsum generators on the Internet tend to repeat
-                  predefined.
+                  Lorem Ipsum, you need to be sure.<span class="d-lg-none"
+                    >...<a href="#" class="text-decoration-none"
+                      >see more</a
+                    ></span
+                  >
+                  <br /><br />
+                  <span class="d-none d-lg-block"
+                    >Anything embarrassing hidden in the middle of text. All the
+                    Lorem Ipsum generators on the Internet tend to repeat
+                    predefined.</span
+                  >
                 </p>
                 <div class="row">
                   <div class="col-6 col-lg-4">
@@ -361,18 +374,18 @@
       </section>
       <!-- Explore learning institute -->
       <!-- Ready to join -->
-      <section>
-        <div class="container">
-          <div class="row bg-primary p-5 rounded-1">
-            <div class="col-md-6 text-white">
+      <section class="pb-5">
+        <div class="container px-md-0">
+          <div class="row mx-0 bg-primary p-5 rounded-1">
+            <div class="col-lg-6 mx-auto text-white text-center text-lg-start">
               <h4 class="fs-4 fw-semibold">Ready to join?</h4>
-              <p>
+              <p class="px-md-4 px-lg-0">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
               </p>
             </div>
             <div
-              class="col-md-6 text-end d-flex align-items-center justify-content-center justify-content-md-end"
+              class="col-lg-6 text-end d-flex align-items-center justify-content-center justify-content-lg-end"
             >
               <button
                 type="button"
@@ -386,10 +399,10 @@
       </section>
       <!-- Ready to join -->
       <!-- Meet our succesfull students -->
-      <section>
+      <section class="pb-3 pb-lg-5">
         <div class="container">
           <div class="row mb-4">
-            <div class="col-lg-6">
+            <div class="col-lg-6 text-center text-lg-start">
               <h2 class="section-title fw-bold">
                 Meet Our Successfull Students
               </h2>
@@ -455,17 +468,17 @@
           </div>
           <div class="row my-4 text-center">
             <div class="col">
-              <button type="button" class="btn btn-common">Get Started</button>
+              <button type="button" class="btn btn-common">View All</button>
             </div>
           </div>
         </div>
       </section>
       <!-- Meet our succesfull students -->
       <!-- Our Students feedback -->
-      <section>
+      <section class="pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-7 mx-auto text-center">
+            <div class="col-lg-7 col-md-10 mx-auto text-center">
               <h2 class="section-title fw-bold">Some Students Feedback</h2>
               <p>
                 It is a long established fact that a reader will be distracted
@@ -477,7 +490,7 @@
             <div
               class="fa-angle angle-left d-none d-lg-block rounded-circle text-center position-absolute top-50 translate-middle-y"
             >
-              <i class="fa-solid fa-angle-left"></i>
+              <i class="fa-solid fa-angle-left fs-2"></i>
             </div>
             <div class="row row-cols-1 row-cols-lg-2 g-3 mt-4 bg-white">
               <div class="col bg-white">
@@ -505,11 +518,9 @@
                   </div>
                   <div class="row mt-3">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem.
+                      I enjoyed this course so much. Thanks Dan. I feel like a
+                      real UX designer right now, Lol. But hey, it was fun
+                      learning this course. I’m so proud of myself.
                     </p>
                   </div>
                   <div class="d-flex align-items-center">
@@ -549,11 +560,9 @@
                   </div>
                   <div class="row mt-3">
                     <p>
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, by injected humour, or randomised words which
-                      don't look even slightly believable. If you are going to
-                      use a passage of Lorem.
+                      The way the lectures are delivered, they are very well and
+                      very comfortable to learn. I highly recommend this, you
+                      will get more than expectations.
                     </p>
                   </div>
                   <div class="d-flex align-items-center">
@@ -574,16 +583,16 @@
             <div
               class="fa-angle angle-right d-none d-lg-block rounded-circle text-center position-absolute top-50 translate-middle-y"
             >
-              <i class="fa-solid fa-angle-right"></i>
+              <i class="fa-solid fa-angle-right fs-2"></i>
             </div>
           </div>
         </div>
       </section>
       <!-- Our Students feedback -->
       <!-- Frequently Asked Questions -->
-      <section>
+      <section class="pb-3 pb-md-5">
         <div class="container">
-          <div class="row">
+          <div class="row mb-3">
             <div class="col-md-7 mx-auto text-center">
               <h2 class="section-title fw-bold">Frequently Asked Questions</h2>
               <p>
@@ -592,10 +601,220 @@
               </p>
             </div>
           </div>
+          <div class="row">
+            <div class="col-lg-9 mx-auto">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item border border-1 rounded-2 mb-3">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button fw-bold"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What are the difference between flexbox and grid ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body d-flex justify-content-center">
+                      <p class="w-50">
+                        <strong>Flexbox: </strong>Flexbox is designed for layout
+                        in one dimension.Either a row or a column.The Flexbox
+                        layout is best suited to application components and
+                        small-scale layouts
+                      </p>
+                      <p class="w-50">
+                        <strong>Grid: </strong>Flexbox is designed for layout in
+                        two dimensional. Rows and column are the same time.Grid
+                        layout is designed for larger-scale layouts that are not
+                        linear in design.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border border-1 rounded-2 mb-3">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button fw-bold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      What are the difference between Bootstrap and Tailwind ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body d-flex justify-content-center">
+                      <p class="w-50">
+                        <strong>Bootstrap: </strong>Bootstrap is component based
+                        CSS framework.Bootstrap have prebuild component which
+                        widely use.
+                      </p>
+                      <p class="w-50">
+                        <strong>Tailwind: </strong>Tailwind is utility first CSS
+                        framework. It has no prebuild component like bootstrap.
+                        It has more flexibility to make beutiful UI.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border border-1 rounded-2 mb-3">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button fw-bold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What is CSS box model ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        <strong>CSS Box Model: </strong>In CSS, the term "box
+                        model" is used when talking about design and layout.a
+                        box that wraps around every HTML element.The box consist
+                        of Margin, Border, Padding and actual content.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item border border-1 rounded-2 mb-3">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button fw-bold collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      What is Semantic tag ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <strong>Semantic tag: </strong>
+                      In HTML Semantic tag meeanig that the meaning of the tag
+                      which can easily understand browser and developers.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Frequently Asked Questions -->
+      <!-- Trusted Companies -->
+      <section class="d-none d-lg-block pb-5">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col mx-auto">
+              <h2 class="section-title text-center fw-bold">
+                Trusted by over 800+ companies
+              </h2>
+              <div
+                class="row row-cols-lg-6 mt-5 justify-content-center align-items-center"
+              >
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="images/company/company-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="images/company/company-2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="images/company/company-3.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="images/company/company-4.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="images/company/company-5.png"
+                    alt=""
+                  />
+                </div>
+                <div class="col">
+                  <img
+                    class="img-fluid"
+                    src="images/company/company-6.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trusted Companies -->
     </main>
+    <footer class="text-center py-5 text-white">
+      <h2 class="fw-bold">Eureka Tech</h2>
+      <p>
+        Office 41, Zawaya Buildin, Ghala Muscat,<br />
+        Sultanate of Oman
+      </p>
+      <p>Privacy Ploicy | Terms of use</p>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="icon rounded-circle me-3">
+          <i class="fa-brands fa-facebook-f fs-6"></i>
+        </div>
+        <div class="icon rounded-circle me-3">
+          <i class="fa-brands fa-twitter fs-6"></i>
+        </div>
+        <div class="icon rounded-circle me-3">
+          <i class="fa-brands fa-linkedin fs-6"></i>
+        </div>
+        <div class="icon rounded-circle">
+          <i class="fa-brands fa-tiktok fs-6"></i>
+        </div>
+      </div>
+    </footer>
     <script src="/bootstrap//js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

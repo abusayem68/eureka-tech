@@ -18,8 +18,8 @@
   color: #289bde !important;
   border: 1px solid #289bde !important;
 }
-section {
-  padding-bottom: 130px;
+.section-title {
+  font-size: 45px;
 }
 /* Common CSS  */
 /* Navigation bar  */
@@ -51,16 +51,11 @@ section {
 .carousel-item {
   max-height: 86vh;
 }
-.carousel-caption {
-  top: 50%;
-  transform: translateY(-50%);
-  margin: 0 auto;
+.carousel-caption h5 {
+  font-size: 65px;
 }
 .carousel-caption p {
   font-size: 18px;
-}
-.carousel-caption h5 {
-  font-size: 65px;
 }
 .img-overlay {
   top: 0;
@@ -74,9 +69,7 @@ section {
 }
 /* Carousel Slider  */
 /* Popular Courses */
-.section-title {
-  font-size: 45px;
-}
+
 .course-details {
   color: #777777;
 }
@@ -87,36 +80,116 @@ section {
 /* Popular Courses */
 /* Explore learning institute */
 
-.learning-bg{
-  background: #F4FAFD;
+.learning-bg {
+  background: #f4fafd;
 }
 /* Explore learning institute */
 /* Students feedback */
-.fa-star{
-  color: #FBBF24;
+.fa-star {
+  color: #fbbf24;
 }
-.fa-angle{
-  background-color: #E6F6FF;
-  color: #289BDE;
-  font-size: 30px;
+.fa-angle {
+  background-color: #e6f6ff;
+  color: #289bde;
   width: 48px;
   height: 48px;
+  padding: 8px;
   transition: all 0.5s ease;
 }
-.fa-angle:hover{
-  background-color: #289BDE;
-  color: #FFFFFF;
+.fa-angle:hover {
+  background-color: #289bde;
+  color: #ffffff;
   cursor: pointer;
 }
-.angle-right{
+.angle-right {
   right: -24px;
 }
-.angle-left{
+.angle-left {
   left: -24px;
 }
 /* Students feedback */
-/* Responsive  CSS  */
-@media screen and (min-width: 768px) {
+/* Footer */
+footer {
+  background: #161616;
 }
-@media screen and (min-width: 992px) {
+.icon {
+  background: #242424;
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+}
+.icon:hover {
+  cursor: pointer;
+}
+/* Footer */
+/* Responsive  CSS  */
+@media screen and (max-width: 992px) {
+  /* common css  */
+  .section-title {
+    font-size: 30px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .btn-common {
+    font-size: 18px;
+    padding: 11px 18px;
+  }
+  /* common css  */
+  /* carousel slider  */
+  .carousel-caption h5 {
+    font-size: 40px;
+  }
+  .carousel-caption p {
+    font-size: 16px;
+  }
+  .carousel-item {
+    max-height: 400px;
+  }
+  .carousel-item .img-container {
+    height: 400px;
+  }
+  .img-container img {
+    height: 100%;
+  }
+  /* carousel slider  */
+}
+@media screen and (max-width: 768px) {
+  /* common css  */
+  .section-title {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .btn-common {
+    font-size: 16px;
+    padding: 9px 18px;
+  }
+  /* common css  */
+  /* carousel slider  */
+  .carousel-caption h5 {
+    font-size: 26px;
+  }
+  .carousel-caption p {
+    font-size: 12px;
+  }
+  .carousel-item {
+    max-height: 262px;
+  }
+  .carousel-item .img-container {
+    height: 262px;
+  }
+  .img-container img {
+    height: 100%;
+  }
+  /* carousel slider  */
+  /* Explore learning institute */
+  .learning-bg {
+    background: #ffffff;
+  }
+  .learning-institute-text {
+    background: #f4fafd;
+  }
+  /* Explore learning institute */
 }
